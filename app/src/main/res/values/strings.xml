@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sign Up Phone</string>
+    <string name="action_settings">Settings</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="okay">Okay</string>
+    <string name="insertphoneno">Insert phone no.</string>
+    <string name="verify">Verify</string>
+    <string name="verificationcode">Verification code</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="insertcode">Insert code.</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.infideap.signupphone.LoginActivity"
+    android:background="@color/colorPrimary"
+    tools:showIn="@layout/activity_login">
+
+    <LinearLayout
+        android:id="@+id/layout_sign_up"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/editText_phone_no"
+            android:layout_width="match_parent"
+            android:ems="12"
+            android:inputType="phone"
+            style="@style/EditText.RoundBorder.Transparent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phonenumber" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/button_okay"
+            style="@style/Button.Accent.Fill"
+            android:text="@string/okay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_verification"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/editText_verification_code"
+            android:layout_width="match_parent"
+            android:ems="12"
+            android:inputType="phone"
+            style="@style/EditText.RoundBorder.Transparent"
+            android:layout_height="wrap_content"
+            android:hint="@string/verificationcode" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/button_verify"
+            style="@style/Button.Accent.Fill"
+            android:text="@string/verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
